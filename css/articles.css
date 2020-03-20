@@ -1,0 +1,120 @@
+.article-heading{
+  font-size: 2.3rem;
+  font-family: 'DM Serif Text', serif;
+  color: #0c7b93;
+  text-align: center;
+  padding: 2% 0;
+}
+
+#art-principali .article-heading{
+  color: #f19b06;
+  font-size: 3.5rem;
+  padding:0;
+  line-height: 1;
+}
+
+#art-principali .cursive-style{
+  line-height: normal;
+  font-size: 1rem;
+}
+
+
+#event .light-heading{
+  font-size:1.5rem;
+  line-height:1.8;
+  color: #f19b06;
+}
+
+#event .card-title{
+  font-size:1.2rem;
+}
+#event,.art-dida{
+  font-size:1rem;
+}
+#event .card{
+  text-align: center;
+}
+.header-eventi{
+  font-size:2rem;
+  padding-bottom:0;
+  line-height:0.8rem;
+  padding:0;
+  line-height: 1;
+  font-family: 'DM Serif Text', serif;
+  color: #0c7b93;
+  text-align: center;
+}
+
+
+.art-sub-heading{
+  font-size: .9rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #707070;
+  text align: left;
+  line-height: 1.5;
+}
+
+.art-dida{
+  font-size: .75rem;
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #707070;
+  text align: left;
+  line-height: 1.5;
+  letter-spacing: 0.02rem;
+}
+
+.art-dida strong{
+  color: #0c7b93;
+}
+
+.article-text {
+  font-family: 'Lora', serif;
+  color: #293133;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  padding:0;
+  margin:0;
+}
+
+.sub-title{
+  font-weight: 700;
+  font-size: 1.6rem;
+  letter-spacing: -0.022em;
+}
+
+#articles li{
+  padding-bottom: 3%;
+}
+/* sections and containers */
+#estratto-libro{
+  color: #0c7b93;
+  padding: 0 7%;
+  line-height: 1.5;
+  font-size:0.9rem;
+}
+
+
+
+#articles{
+  max-width:680px;
+  margin: auto;
+}
+
+/* buttons */
+
+#myDIV{
+  display: none;
+}
+#sogni .article-text , .cursive-style{
+  font-size: 1rem;
+}
+
+/* breakpoint 768 */
+@media (min-width: 768px){
+  .sub-title{
+    font-size: 2.3rem;
+  }
+  #sogni .article-text , .cursive-style{
+    font-size: 1.3rem;
+  }
+}

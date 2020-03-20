@@ -1,0 +1,86 @@
+/* section and heading */
+.shrink-section{
+  padding: 3%;
+  background-color: #EFEFEF;
+  border-radius: 2vw;
+}
+
+
+/* di cosa mi occupo */
+.text-ambiti{
+  padding: 6%;
+}
+
+
+.myColumn{
+  width: 18rem;
+  padding: 5%;
+  height: 8rem;
+  background-color: #EFEFEF;
+  border-radius: 1.2vw;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myColumn .cursive-style{
+  font-size: 1.4rem;
+  line-height: 1.4;
+  font-weight: 700;
+}
+
+.myColumn h3{
+  margin-bottom: 0;
+}
+
+/* tre mini sezioni */
+
+.mini-sections .big-heading{
+  font-size:2rem;
+  text-transform: uppercase;
+  line-height: 1;
+  padding-top:3px;
+}
+/* Psicologia Scolastica */
+.cases{
+  background-color: #EFEFEF;
+  padding: 7%;
+  border-radius:2vw;
+  width: 97%;
+  height: 97%;
+  margin: auto;
+  font-size: 1.1rem;
+}
+
+.cases li{
+  padding-bottom: 2%;
+}
+
+.mini-sections .cursive-style{
+  text-align: left;
+  line-height: 1.4;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+#ps-scolastica .myImage{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 2vw;
+}
+
+/* casi clinici e disturbi trattati */
+#casi-clinici .cases{
+  margin-top: 1.8rem;
+}
+
+#disturbi .cursive-style{
+  text-align: left;
+}
+
+#disturbi .cases{
+  margin-top: 1.8rem;
+}

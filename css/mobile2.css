@@ -1,0 +1,53 @@
+@media (min-width: 480px) {
+
+  /* SECTION AND CONTAINERS */
+
+  /* HEADINGS */
+  .big-heading {
+    font-size: 4vw;
+    line-height: 1.1;
+  }
+
+  .md-heading {
+    font-size: 3vw;
+  }
+
+
+  /* NAVIGATION */
+  .nav-item {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 1.2rem;
+    font-size: 1.5rem;
+  }
+
+
+  /* SLIDER */
+  .slider-text{
+    font-size: 4.5vw;
+  }
+
+
+
+  /* ABOUT - CHI SONO */
+  #about {
+    font-size: 3.5vw;
+  }
+
+  .chiSono_image {
+    width: 50%;
+    height: auto;
+  }
+
+
+  /* TERAPIA */
+  .tr_image{
+    border-radius: 2.5vw;
+  }
+  /* ARTICOLI */
+.card{
+  min-width: 10%;
+}
+
+
+}

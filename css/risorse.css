@@ -1,0 +1,21 @@
+#decalogo .cursive-style{
+  font-size: 2.3rem;
+  font-weight: 700;
+}
+#decalogo li{
+  padding-bottom: 1rem;
+}
+
+#benessere li{
+  padding-bottom: 1rem;
+  font-size: 1.2rem;
+}
+
+#benessere strong{
+  font-size: 1.3rem;
+}
+@media (max-width: 480px){
+  #decalogo .cursive-style{
+    font-size: 1.3rem;
+  }
+}

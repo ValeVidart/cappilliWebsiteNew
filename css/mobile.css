@@ -1,0 +1,250 @@
+@media (max-width: 480px) {
+
+  /* IMAGES */
+  #ps-scolastica .myImage {
+    width: 110%;
+    position: relative;
+    right: 14px;
+    padding-top: 3%
+  }
+
+  /* sections and containers */
+  .container-fluid {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .table td, .table th {
+    padding: 1%;
+  }
+
+  #psyc_list td {
+    position: relative;
+    right: 30px;
+  }
+
+  .spazio {
+    border: dotted #fff 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 10px auto;
+  }
+
+  #occupo .container-fluid {
+    padding: 0 5%;
+  }
+
+  .article-column {
+    padding: 3% 2%;
+  }
+
+  /* Headings and text*/
+  .cursive-style {
+    line-height: 1.4;
+  }
+
+
+
+  #leggi .big-heading {
+    font-size: 1.8rem;
+  }
+  #benessere .big-heading {
+    font-size: 1.8rem;
+  }
+
+
+
+  .text-general {
+    line-height: 1.8;
+  }
+
+
+
+  #p_analisi .big-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #disturbi .big-heading {
+    font-size: 2.5rem;
+  }
+
+  #p_terapeuta .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #ps-scolastica .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #casi-clinici .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #ps-forense .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #approach .big-heading {
+    font-size: 1.9rem;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+  }
+
+  #approach .new-md-heading {
+    padding-top: 10px;
+  }
+
+  /* images */
+  #ps-scolastica .cases {
+    padding-bottom: 21%;
+  }
+}
+
+/* breakpoint 768 */
+@media (min-width: 768px) {
+  .imgSlide {
+    max-width: 50%;
+  }
+  .myFakeSlider{
+    width: 30%;
+    height: auto;
+  }
+
+  /* sections */
+  .container-fluid {
+    padding: 4% 20%;
+  }
+
+  #articles .container-fluid {
+    padding: 0;
+  }
+
+  #occupo .container-fluid {
+    padding: 0 10%;
+  }
+
+  .spazio {
+    border: dotted #fff 6px;
+    border-bottom: none;
+    width: 2%;
+    margin: 0px auto;
+  }
+
+  /* Headings and text */
+  #articles .article-text {
+    font-size: 1.3rem;
+  }
+
+  #articles .art-sub-heading {
+    font-size: 1.2rem;
+  }
+
+  #articles .article-heading {
+    font-size: 2.8rem;
+  }
+
+
+
+
+  /* images */
+  #articles .myImage {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 2vw;
+  }
+}
+
+/* breack a 990 */
+@media (min-width: 990px) {
+  .myColumn {
+    width: 100%;
+  }
+  .myFakeSlider{
+    width: 30%;
+    height: auto;
+  }
+  .container-fluid {
+    padding: 3% 15%;
+  }
+
+  /* Headings and text*/
+  #art-principali .cursive-style {
+    font-size: 1.8rem;
+  }
+
+
+  #decalogo li{
+    font-size: 1.2rem;
+  }
+
+  /* IMAGES */
+  #ps-scolastica .myImage {
+    max-height: 100%;
+    width: 120%;
+    border-radius: 1vw;
+  }
+
+  .myImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+  }
+
+  .card-img, .card-img-top {
+    border-top-left-radius: 0.25rem 1px;
+    border-top-right-radius: 0.25rem 1px;
+  }
+
+  .card {
+    border-radius: 0.25rem;
+    width: auto;
+  }
+
+  /* sections and containers */
+}
+
+/* a 1300 porca paletta */
+@media (min-width: 1300px) {
+  .container-fluid {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+}
+
+/* breakpoint 1200 */
+@media (min-width: 1450px) {
+
+  /* ARTICLES SECTION */
+
+  .colored-section .container-fluid {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .white-section .container-fluid {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+/* breakpoint 1600 */
+@media (min-width: 1600px) {
+
+  /* ARTICLES SECTION */
+  .container-fluid {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
