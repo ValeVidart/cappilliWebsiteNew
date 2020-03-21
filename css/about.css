@@ -1,11 +1,9 @@
 /* mini slider */
-#mini-slider{
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
 
 /* psicologa */
-
+#psicologa .container-fluid{
+  padding-top:0;
+}
 
 body .container-fluid{
   padding:3% 10%;

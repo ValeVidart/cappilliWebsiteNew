@@ -211,12 +211,9 @@ nav-label:focus {
 }
 
 /* slider articoli principali */
-#slider {
-  text-align: center;
-}
 
-#slider .container-fluid {
-  padding-top: 3%;
+#mini-slider .myImage{
+  margin: 0% auto;
 }
 
 .imgSlide {
@@ -387,4 +384,12 @@ a.myBtn:hover{
 
 .my-footer {
   padding: 3% 6% 3%;
+}
+
+@media (min-width: 768px){
+  .nav-item {
+    font-weight: 900;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
 }
