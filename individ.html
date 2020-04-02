@@ -25,8 +25,11 @@
   <!--css files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/cappilli.css">
+  <link rel="stylesheet" href="css/ambiti.css">
   <link rel="stylesheet" href="css/mobile.css">
-  <link rel="stylesheet" href="css/about.css">
+  <link href="css/gallerymio.css" rel="stylesheet">
+  <link href="css/lightboxmio.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/articoli">
 
   <!--favicon files -->
   <link href="img/favicon.png" rel="shortcut icon">
@@ -35,9 +38,15 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/scriptaculous.js"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+
+
 </head>
 
 <body>
+
   <!-- logo -->
   <a class="navbar-brand" href="index.html" id="logo">
     <img class="imgLogo" src="img/lauraCappilliLogo.svg" alt="">
@@ -94,120 +103,56 @@
   </nav>
 
 
-
   <!-- tasto top -->
   <a id="tasto-top" class="myTasto" href="#logo">
     <i class="fas fa-angle-up"></i>
   </a>
 
 
-  <!-- sono una psicologa... -->
-  <section class="white-section" id="psicologa">
+  <!-- di cosa mi occupo -->
+
+  <section class="white-section" id="occupo">
     <div class="container-fluid">
-      <br><br>
-      <h6 class="cursive-style">
-        Sono una <strong>Psicologa Psicoterapeuta</strong> ad orientamento <br>
-        <strong>Psicoanalitico Psicodinamico</strong>.
-      </h6>
-    </div>
-
-  </section>
 
 
-  <!-- MINI SLIDER -->
-  <section class="white-section" id="mini-slider">
-    <div id="carouselExampleCaptions" class="carousel slide" >
-      <ol class="carousel-indicators">
-        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-      </ol>
-      <div class="carousel-inner">
-        <div class="carousel-item active container-fluid">
-          <img src="img/filo.png" href="#" class="myImage" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <br><br>
+      <!-- tre mini sections -->
+      <br>
+      <div class="mini-sections">
+
+        <!-- Psicologia Scolastica -->
+
+        <div class="row">
+          <div class="col-lg-10 col-md-12 m-auto" id="ps-scolastica">
+            <div class="cases">
+              <h5 class="big-heading">Crescita</h5>
+              <br>
+              <br>
+              <br>
+              <h5 class="cursive-style">Lorem ipsum dolor sit amet</h5>
+              <br>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+
+            </div>
           </div>
+
+
+
         </div>
-        <div class="carousel-item container-fluid">
-          <img src="img/fenice.png" href="#" class="myImage" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
-        <div class="carousel-item container-fluid">
-          <img src="img/farfa1.png" href="#" class="myImage" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-          </div>
-        </div>
+        <!-- fine row -->
+
+
+
+
       </div>
-      <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="sr-only">Previous</span>
-      </a>
-      <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-      </a>
+      <!-- mini sections -->
     </div>
+    <!-- fine container-fluid -->
 
-    <br>
+
   </section>
 
-
-
-
-
-  <!-- TEXT ABOUT ME -->
-  <section class="colored-section container-fluid" id="text-about-me">
-    <p><br>
-      Dopo essermi <strong>laureata in Psicologia</strong> presso l'Università degli Studi di <strong>Padova</strong> nel 1980 , mi sono specializzata in <strong>Psicoterapia Psicoanalitica</strong> ad indirizzo individuale (ARIRI Bari).
-      Successivamente ho frequentato un <strong>Master di perfezionamento in Psicoanalisi delle Relazioni di Coppia</strong> (Sipre Milano).
-    </p>
-  </section>
-
-  <!-- Master e altri corsi... -->
-  <section class="white-section container-fluid" id="corsi">
-    <br>
-    <p>Ho frequentato <strong>master e corsi di perfezionamento</strong> in:</p>
-    <ul>
-      <li>Psicoanalisi e Clinica della Sessualità</li>
-      <li>Sessuologia Clinica</li>
-      <li>Psicoanalisi della Relazione di coppia</li>
-      <li>EMDR (per gli eventi post-traumatici da stress)</li>
-      <li>Psicologia Giuridica</li>
-      <li>Disturbi Alimentari</li>
-      <li>Formazione, Progettazione e Orientamento</li>
-    </ul>
-    <p>Oltre che numerosi corsi di formazione continua in 
-      <strong>Psicoterapia Psicodinamica</strong> e <strong>Psicoanalitica</strong>
-       e diversi <strong>seminari</strong> di aggiornamento sul <strong>disagio, minorile e adulto</strong>. <br>
-    </p>
-  </section>
-
-  <!-- Sono Consulente Tribunale... -->
-
-  <section class="colored-section container-fluid">
-    <p>
-      <br>Sono <strong>consulente</strong> presso il Tribunale dei Minori di Lecce.
-      <br>
-      <br>
-      <strong>Tengo corsi di Formazione e aggiornamento</strong> presso Enti di Formazione e Scuole,
-      per operatori della <strong>relazione d'aiuto</strong>, <strong>per dottorandi e docenti</strong>.
-      <br>
-      <br>
-      Ho gestito in diversi anni il <strong>"Centro Ascolto"</strong> presso il <strong>Liceo Scientifico "C. De Giorgi"</strong>, e presso <strong>l'Istituto Tecnico Commerciale "Costa"</strong>, a Lecce, <strong>uno spazio di ascolto
-        rivolto
-        agli studenti</strong>, e incontri tematici dedicati
-      all'approfondimento della <strong>conoscenza di sé e delle proprie emozioni</strong>.
-      <br>
-      <br>
-      Iscritta all'<strong>Ordine degli Psicologi</strong>della Regione Puglia, <strong>n. 1713</strong>.
-      <br>
-
-    </p>
-  </section>
-
-  <!-- cornicetta -->
   <hr>
 
   <!-- footer -->
