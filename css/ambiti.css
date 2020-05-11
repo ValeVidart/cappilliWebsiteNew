@@ -30,6 +30,10 @@
   font-weight: 700;
 }
 
+.myColumn a{
+  color:#0c7b93;
+}
+
 .myColumn h3{
   margin-bottom: 0;
 }
@@ -44,7 +48,7 @@
 }
 /* Psicologia Scolastica */
 .cases{
-  background-color: #EFEFEF;
+  background-color: white;
   padding: 7%;
   border-radius:2vw;
   width: 97%;
@@ -55,6 +59,10 @@
 
 .cases li{
   padding-bottom: 2%;
+}
+
+#ps-scolastica h5{
+  text-align: center;
 }
 
 .mini-sections .cursive-style{

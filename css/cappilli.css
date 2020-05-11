@@ -2,16 +2,18 @@ body {
   font-family: 'Montserrat',sans-serif;
   text-align: center;
 }
-.myFakeSlider{
-  width: 90%;
-  height: auto;
+
+#slider{
+  text-align: center;
+}
+#slider .myImage{
+  max-width: 50vh;
 }
 
 .imgLogo {
-  padding: 7% 2% 7%;
-  line-height: 20px;
+  padding: 2% 0% 2%;
   margin: auto;
-  width: 50%;
+  width: 40%;
 }
 
 hr {
@@ -115,9 +117,7 @@ hr {
   color: #0c7b93;
 }
 
-.colored-section .cursive-style{
-  color: #f19b06;
-}
+
 
 .white-section .big-heading{
   color: #0c7b93;
