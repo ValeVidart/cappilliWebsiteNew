@@ -169,6 +169,10 @@ em {
   color: #0c7b93;
 }
 
+#navbarTogglerDemo01 a.active{
+  color: #0c7b93;  
+}
+
 .nav-item {
   font-weight: 900;
   padding-left: 1rem;
