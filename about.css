@@ -1,0 +1,24 @@
+/* mini slider */
+
+/* psicologa */
+#psicologa .container-fluid{
+  padding-top:0;
+}
+
+body .container-fluid{
+  padding:3% 10%;
+}
+
+
+
+#psicologa .text-about-me{
+  padding: 8% 3% 0;
+}
+#psicologa h6{
+  text-align: left;
+}
+
+.myContent{
+  width:80%;
+  margin:auto;
+}

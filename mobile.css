@@ -1,0 +1,437 @@
+@media (max-width: 480px) {
+
+    #logo .imgLogo{
+    width: 100%;
+    height: auto;
+  }
+  /* IMAGES and slider */
+
+  #slider .myImage{
+    margin:auto;
+    width: 80%;
+    height: auto;
+    text-align: center;
+  }
+
+  #psicologa .myImage{
+    width: 100%;
+    margin: auto;
+  }
+  #psicologa h6 {
+      padding-left:10px;
+
+  }
+
+  #ps-scolastica .myImage {
+    width: 110%;
+    position: relative;
+    right: 14px;
+    padding-top: 3%
+  }
+
+  #mini-slider{
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+
+  /* sections and containers */
+  .container-fluid {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .table td, .table th {
+    padding: 1%;
+  }
+
+  #psyc_list td {
+    position: relative;
+    right: 30px;
+  }
+
+  .spazio {
+    border: dotted #fff 6px;
+    border-bottom: none;
+    width: 10%;
+    margin: 10px auto;
+  }
+
+  #occupo .container-fluid {
+    padding: 0 5%;
+  }
+
+  .article-column {
+    padding: 3% 2%;
+  }
+
+
+  /* Headings and text*/
+  .cursive-style {
+    line-height: 1.4;
+  }
+
+  #freud .md-heading{
+    color:#0c7b93;
+    font-size: 1.2rem;
+  }
+
+  #p_terapeuta .md-heading{
+    color: #0c7b93;
+    font-size: 1.2rem;
+  }
+
+  #psicologa h6{
+    padding-bottom: 5%;
+  }
+
+  #leggi .big-heading {
+    font-size: 1.8rem;
+  }
+  #benessere .big-heading {
+    font-size: 1.8rem;
+  }
+
+
+  .text-general {
+    line-height: 1.8;
+  }
+
+  #p_analisi .big-heading {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #disturbi .big-heading {
+    font-size: 2.5rem;
+  }
+
+  #p_terapeuta .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #ps-scolastica .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #ps-coppia .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #casi-clinici .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #ps-forense .big-heading {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0;
+  }
+
+  #approach .big-heading {
+    font-size: 1.9rem;
+    text-align: center;
+    line-height: 1;
+    margin: 0;
+  }
+
+  #approach .new-md-heading {
+    padding-top: 10px;
+  }
+
+  /* images */
+  #ps-scolastica .cases {
+    padding-bottom: 21%;
+  }
+}
+
+
+
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+
+  #logo .imgLogo{
+  width: 70%;
+  height: auto;
+  }
+
+  #freud .md-heading{
+    color: #0c7b93;
+    font-size: 1.5rem;
+  }
+
+  #p_terapeuta .md-heading{
+    color: #0c7b93;
+    font-size: 1.5rem;
+  }
+  #freud .myImage{
+    width:70%;
+  }
+
+
+  #psicologa .myImage{
+    width: 60%;
+    margin: auto;
+  }
+
+  #psicologa .text-about-me{
+    padding: 8% 3% 0;
+    margin:auto;
+  }
+
+}
+
+
+/* breakpoint 768 */
+@media (min-width: 768px) {
+  #logo .imgLogo{
+  width: 50%;
+  height: auto;
+}
+
+#freud .md-heading{
+  color:#0c7b93;
+  font-size: 2rem;
+}
+
+#p_terapeuta .md-heading{
+  color: #0c7b93;
+  font-size: 2rem;
+}
+
+#psicologa .myImage{
+  width: 60%;
+  margin: auto;
+}
+
+  #slider .mySlider{
+    margin:auto;
+    width: 70%;
+    height: auto;
+    text-align: center;
+  }
+  #psicologa .myImage{
+    width: 70%;
+  }
+  #p_analisi .myImage{
+    width: 70%;
+  }
+
+  #mini-slider .myImage {
+    max-width: 50%;
+  }
+
+  .mySlider{
+    width: 30%;
+    height: auto;
+  }
+
+  /* sections */
+  .container-fluid {
+    padding: 4% 20%;
+  }
+
+  #articles .container-fluid {
+    padding: 0;
+  }
+
+  #occupo .container-fluid {
+    padding: 0 10%;
+  }
+
+  .spazio {
+    border: dotted #fff 6px;
+    border-bottom: none;
+    width: 2%;
+    margin: 0px auto;
+  }
+
+  /* Headings and text */
+  #articles .article-text {
+    font-size: 1.3rem;
+  }
+
+  #articles .art-sub-heading {
+    font-size: 1.2rem;
+  }
+
+  #articles .article-heading {
+    font-size: 2.8rem;
+  }
+
+
+
+
+  /* images */
+  #articles .myImage {
+    width: 100%;
+    display: block;
+    margin: auto;
+    border-radius: 2vw;
+  }
+  #freud .myImage{
+    width: 70%;
+  }
+}
+
+/* breack a 990 */
+@media (min-width: 990px) {
+  #logo .imgLogo{
+  width: 40%;
+  height: auto;
+}
+
+#p_analisi .myImage{
+  width: 90%;
+}
+#sec_riga .myImage{
+  width: 100%;
+}
+#sec_riga .container-fluid{
+  padding: 3% 6%;
+}
+#freud .container-fluid{
+  padding: 3% 6%;
+}
+  .myColumn {
+    width: 100%;
+  }
+  .mySlider{
+    width: 30%;
+    height: auto;
+    margin:auto;
+  }
+  .container-fluid {
+    padding: 3% 18%;
+  }
+
+  /* Headings and text*/
+  #art-principali .cursive-style {
+    font-size: 1.8rem;
+  }
+
+
+  #decalogo li{
+    font-size: 1.2rem;
+  }
+
+  /* IMAGES */
+  #ps-scolastica .myImage {
+    max-height: 100%;
+    width: 120%;
+    border-radius: 1vw;
+  }
+  #psicologa .myImage{
+    width: 60%;
+    margin-left: 40%;
+  }
+  #freud .myImage{
+    width: 90%;
+  }
+
+  .myImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    border-radius: 2vw;
+  }
+
+  .card-img, .card-img-top {
+    border-top-left-radius: 0.25rem 1px;
+    border-top-right-radius: 0.25rem 1px;
+  }
+
+  .card {
+    border-radius: 0.25rem;
+    width: auto;
+  }
+
+  /* sections and containers */
+}
+
+/* a 1300 porca paletta */
+@media (min-width: 1300px) {
+  #psicologa .myImage{
+    width: 60%;
+    margin-left: 40%;
+  }
+  .container-fluid {
+    padding-left: 18%;
+    padding-right: 18%;
+  }
+  #sec_riga .container-fluid{
+    padding: 3% 16%;
+  }
+  #freud .container-fluid{
+    padding: 3% 16%;
+  }
+}
+
+/* breakpoint 1200 */
+@media (min-width: 1450px) {
+
+  /* ARTICLES SECTION */
+
+  #sec_riga .container-fluid{
+    padding: 3% 16%;
+  }
+  #freud .container-fluid{
+    padding: 3% 16%;
+  }
+  .colored-section .container-fluid {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .white-section .container-fluid {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+}
+
+/* breakpoint 1600 */
+@media (min-width: 1600px) {
+  #slider .mySlider{
+    margin:auto;
+    width: 30%;
+    height: auto;
+    text-align: center;
+  }
+  /* ARTICLES SECTION */
+  .container-fluid {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .colored-section .text-general{
+    line-height: 2rem;
+  }
+  #sec_riga .container-fluid{
+    padding: 3% 16%;
+  }
+
+  #freud .container-fluid{
+    padding: 3% 16%;
+  }
+
+  .colored-section#freud .myImage{
+    width: 100%;
+    height: 70%;
+  }
+  li.freud_1{
+    line-height: 2.2rem;
+  }
+
+  #p_analisi.container-fluid{
+    padding: 3% 16%;
+  }
+  #p_analisi .myImage{
+    width:80%;
+  }
+}

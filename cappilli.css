@@ -1,0 +1,399 @@
+body {
+  font-family: 'Montserrat',sans-serif;
+  text-align: center;
+}
+
+#slider{
+  text-align: center;
+}
+#slider .myImage{
+  max-width: 50vh;
+}
+
+.imgLogo {
+  padding: 2% 0% 2%;
+  margin: auto;
+  width: 40%;
+}
+
+hr {
+  border: dotted #f19b06 8px;
+  border-bottom: none;
+  width: 9%;
+  margin: 50px auto;
+}
+/* buttons */
+
+#tasto-top{
+    width: 3.5rem;
+    height: 3.5rem;
+    z-index: 1;
+    position: fixed;
+    background-color: grey;
+    border-radius: 100%;
+    opacity: 70%;
+
+}
+
+#tasto-top i{
+  font-size: 2.5rem;
+}
+
+.myTasto{
+  display: block;
+  right:20px;
+  bottom: 20px;
+  color: #f19b06;
+  margin: auto;
+}
+/* sections and containers */
+.container-fluid {
+  padding: 4% 9%;
+}
+
+.colored-section {
+  background-color: #F4FDFE;
+  text-align: left;
+}
+
+.white-section {
+  background-color: white;
+  text-align: left;
+}
+
+
+/* Headings  and text*/
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-align: center;
+  color: #f19b06;
+  padding: 3%;
+}
+
+.md-heading {
+  font-size: 1.1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: #f19b06;
+  text-align: center;
+}
+
+
+
+.light-heading{
+  font-family: 'Merriweather Sans', sans-serif;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #707070;
+  text-align: center;
+}
+
+.new-md-heading{
+  font-family: 'Merriweather', cursive;
+  font-size: 1.3rem;
+  line-height: .8;
+  font-weight: 400;
+  text-align: center;
+  color: #f19b06;
+  padding-bottom: 3%;
+}
+
+.cursive-style {
+  font-family: 'Merriweather';
+  color: #0c7b93;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+
+
+.white-section .new-md-heading{
+  color: #0c7b93;
+}
+
+
+
+.white-section .big-heading{
+  color: #0c7b93;
+  line-height: 1.2;
+}
+
+
+em {
+  font-family: 'Merriweather';
+  font-weight: 300;
+  color: #707070;
+}
+
+.text-general {
+  color: #293133;
+  font-size: 1.1rem;
+}
+
+#psyc_list{
+  text-align: left;
+}
+
+
+.text-general strong{
+  letter-spacing: 0.06;
+  font-weight: 700;
+}
+
+.colored-section strong{
+  color: #0c7b93;
+}
+
+
+/* navbar */
+.myMenu {
+  width: 80%;
+}
+
+.navbar-light .navbar-toggler-icon {
+  padding-top: 10%;
+  background-image: none;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #f19b06;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #0c7b93;
+}
+
+#navbarTogglerDemo01 a.active{
+  color: #0c7b93;  
+}
+
+.nav-item {
+  font-weight: 900;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.nav-link .nav-item {
+  margin-left: 0;
+  margin-right: 0;
+  line-height: 1;
+}
+
+.bg-light {
+  background-color: white !important;
+  background: rgba(255, 255, 255, 0.88);
+  box-shadow: 0px 3px 21px rgba(0, 0, 0, 0.16);
+}
+
+/* submenu */
+.mySubMenu .nav-link {
+  font-size: .95rem;
+  line-height: 1.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav-label:focus {
+  background-color: #0c7b93;
+}
+.nav-label{
+  padding-left: 12px;
+}
+
+.mySub {
+  text-align: center;
+}
+
+.dropdown-menu {
+  min-width: 100%;
+}
+
+/* slider articoli principali */
+
+#mini-slider .myImage{
+  margin: 0% auto;
+}
+
+.imgSlide {
+  width: 90%;
+  height: auto;
+  margin:auto;
+}
+
+.slider-text {
+  margin-top: 10%;
+  font-size: 2rem;
+  line-height: 1.5;
+  font-family: 'Merriweather';
+  font-weight: 400;
+  color: #707070;
+  position:relative;
+}
+
+/* slider di prova */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f19b06;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 2rem;
+  font-weight: 700;
+  color: #f19b06;
+}
+
+.carousel-control-prev-icon .carousel-control-next-icon {
+  color: black;
+}
+
+
+/* Chi sono */
+#about {
+  font-size: 1rem;
+  margin: auto;
+  background-color: white;
+}
+
+.chiSono_image {
+  width: 100%;
+  height: auto;
+  border-radius: 2vw;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+.btn {
+  text-transform: uppercase;
+  font-size: 1rem;
+  width: 15rem;;
+  height: 3.5rem;
+  border-radius: 34px;
+  background: #fff;
+  border: 2px solid #0c7b93;
+  margin: 20px auto;
+  color: #0c7b93;
+}
+
+.btn:hover {
+  color: #f19b06;
+  background-color: #fff;
+  border: 2px solid #f19b06;
+}
+
+a.myBtn{
+  color: #0c7b93;
+  text-decoration: none;
+  transition-duration: 0.05s;
+
+}
+a.myBtn:hover{
+  color: #f19b06;
+}
+
+/* TERAPIA */
+.myImage {
+  width: 90%;
+  height: auto;
+  border-radius: 5vw;
+  object-fit: cover;
+  margin: 2%;
+  display: block;
+}
+
+/* ARTICOLI */
+.article-column {
+  padding: 3% 2%;
+}
+
+.card-header {
+  background-color: white;
+}
+.card-text{
+  font-family: 'Merriweather Sans', sans-serif;
+  color: #707070;
+}
+
+.card-title {
+  color: #f19b06;
+  font-weight: 900;
+  font-family: 'Merriweather', cursive;
+  text-align: center;
+  color: #0c7b93;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+.card-img, .card-img-top{
+  border-top-left-radius: 3vw;
+  border-top-right-radius: 3vw;
+}
+.card {
+  border-radius: 3vw;
+  width: auto;
+}
+
+.card-header:first-child {
+  border-radius: 2rem;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.card-link{
+  color: #f67575;
+}
+
+/* EVENTI E NEWS */
+#eventNews {
+  padding: 3% 2%;
+}
+
+/* FOOTER */
+#footer{
+  text-align:center;
+}
+
+#footer ul{
+  padding-left: 0;
+}
+
+#footer strong{
+  color: #f19b06;
+}
+
+.footer-link {
+  color: black;
+}
+
+.footer-link:hover {
+  color: #0c7b93;
+}
+
+.my-footer {
+  padding: 3% 6% 3%;
+}
+
+@media (min-width: 768px){
+  .nav-item {
+    font-weight: 900;
+    padding-left: 0.7rem;
+    padding-right: 0.7rem;
+  }
+}
