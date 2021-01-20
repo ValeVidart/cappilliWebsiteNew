@@ -9,15 +9,16 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta name="Laura Cappilli" content="psicoterapeuta e psicoanalista">
-  <meta name="description" content="Laura Cappilli Psicoanalista e Psicoterapeutaad orientamento psicoanalitico psicodinamico">
-  <meta name="keywords" content="lecce, psicoterapeuta, chi sono, psicoanalista, psicoanalisi, psicologia, psicologa, professionale, psicodinamica, interpretazione, sogni">
+  <meta name="Laura Cappilli" content="psicoterapeuta e psichiatra">
+  <meta name="description" content="sito di Laura Cappilli psicoterapeuta e psichiatra">
+  <meta name="keywords" content="lecce, Psicoterapeuta, psicologia, psicologa, professionale, psicodinamica, interpretazione, sogni">
 
   <title>Laura Cappilli - Psicologa e Psicoterapeuta a Lecce</title>
 
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Lora:400,700|Merriweather+Sans&display=swap" rel="stylesheet">
 
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
@@ -25,8 +26,11 @@
   <!--css files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/cappilli.css">
+  <link rel="stylesheet" href="css/ambiti.css">
   <link rel="stylesheet" href="css/mobile.css">
-  <link rel="stylesheet" href="css/about.css">
+  <link href="css/gallerymio.css" rel="stylesheet">
+  <link href="css/lightboxmio.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/articles.css">
 
   <!--favicon files -->
   <link href="img/favicon.png" rel="shortcut icon">
@@ -35,9 +39,15 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/scriptaculous.js"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+
+
 </head>
 
 <body>
+
   <!-- logo -->
   <a class="navbar-brand" href="index.html" id="logo">
     <img class="imgLogo" src="img/lauraCappilliLogo.svg" alt="">
@@ -58,13 +68,13 @@
           <a class="nav-link" href="index.html">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="about.html">CHI SONO</a>
+          <a class="nav-link" href="about.html">CHI SONO</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="terapia.html">APPROCCIO TERAPEUTICO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ambiti.html">AMBITI DI INTERVENTO</a>
+          <a class="nav-link active" href="ambiti.html">AMBITI DI INTERVENTO</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="articoli.html">ARTICOLI</a>
@@ -94,98 +104,70 @@
   </nav>
 
 
-
   <!-- tasto top -->
   <a id="tasto-top" class="myTasto" href="#logo">
     <i class="fas fa-angle-up"></i>
   </a>
 
 
-  <!-- sono una psicologa... -->
-  <section class="white-section" id="psicologa">
+  <!-- di cosa mi occupo -->
+
+  <section class="white-section" id="occupo">
     <div class="container-fluid">
-        <br>
-        <h2 class="big-heading">CHI SONO </h2>
 
-        <div class="myContent">
 
-          <div class="row">
-            <div class="col-lg-6 col-md-6">
+      <!-- tre mini sections -->
+      <br>
+      <div class="mini-sections">
 
-              <img class="myImage" src="img/cappilli.jpg" alt="Foto Laura Cappilli">
-            </div>
+        <!-- disagio adolescenziale -->
 
-            <div class="col-lg-6 col-md-6 text-about-me">
-              <h6 class="cursive-style">
-                Sono una <strong>Psicologa Psicoterapeuta</strong> ad orientamento
-                <strong>Psicoanalitico Psicodinamico</strong>.
-              </h6>
+        <div class="row">
+          <div class="col-lg-10 col-md-12 m-auto" id="ps-scolastica">
+            <div class="cases">
+              <h5 class="big-heading">Disagio adolescenziale</h5>
+              <br>
+
+              <div class="col-lg-6 m-auto col-sm-12">
+                <img class="myImage m-auto" src="img/disagio.jpg" alt="immagine da trovare insieme">
+                <br>
+              </div>
+
+              <br>
+              <h5 class="cursive-style">L’adolescenza è una tappa che fa da cerniera tra l’infanzia e l’età adulta <br>(A. Freud)</h5>
+              <br>
+              <p>
+                L’adolescenza è una tappa dello sviluppo evolutivo caratterizzato primariamente dalla <strong>conquista d’identità nuova</strong> per raggiungere una maturità più adulta. <br>
+                L’adolescente si trova a lottare per crescere, <strong>ogni cambiamento della propria immagine nel proprio essere si ripercuote su tutta la vita psichica</strong> e può sconvolgere l’equilibrio raggiunto imponendogli dei nuovi
+                adattamenti. Si assiste al sorgere di “disturbi adolescenziali” che rappresentano il tentativo di ristabilire un nuovo e più stabile equilibrio interno.
+                <strong>Molti sono i fattori che condizionano questo processo di crescita</strong>, maturità fisica e sessuale, relazioni sociali, relazioni con i genitori costruita sin dalla nascita , stabilità emotiva che rappresentano le risorse
+                da utilizzare per la propria crescita evolutiva. Qualora siano scarse o deficitarie possono insorgere e manifestarsi <strong>sintomi passeggeri o stabili e persistenti</strong>.
+                <br><br>
+                Necessitano di un intervento psicologico i casi in cui si riscontrano <strong>comportamenti asociali, come conflitti con la scuola con la legge</strong>, presenza di comportamenti ostili oppure <strong>aggressivi nei confronti dei
+                  genitori</strong>. Isolamento e <strong>distacco dal nucleo familiare</strong> con scelte di frequentazioni di bisogno di compagnia in gruppi o bande. <br>
+                Altre forme patologiche che possono esordire nell’adolescenza sono <strong>reazioni depressive</strong> con tendenza a farsi del male come vari incidenti fino alla presenza di idee suicidare. <br>
+                Altre forme ancora patologiche possono esordire con <strong>disturbi alimentari (anoressia, bulimia, obesità)</strong>. La lotta con il cibo può diventare imponente e pericolosa e richiede specifici e accurati interventi terapeutici.
+              </p>
+
+              <br>
+                <h5 class="cursive-style">Torna agli</h5>
+                <button type="button" class="btn btn-outline-dark btn-lg btn-block">
+                <a class="myBtn" href="ambiti.html">ambiti di intervento</a>
+                </button>
             </div>
           </div>
 
 
+
         </div>
+        <!-- fine row -->
 
-
-
+      </div>
+      <!-- mini sections -->
     </div>
-  </section>
+    <!-- fine container-fluid -->
 
 
-
-
-
-  <!-- TEXT ABOUT ME -->
-  <section class="colored-section container-fluid" id="text-about-me">
-    <p><br>
-      Dopo essermi <strong>laureata in Psicologia</strong> presso l'Università degli Studi di <strong>Padova</strong> nel 1980 , mi sono specializzata in <strong>Psicoterapia Psicoanalitica</strong> ad indirizzo individuale (ARIRI Bari).
-      Successivamente ho frequentato un <strong>Master di perfezionamento in Psicoanalisi delle Relazioni di Coppia</strong> (Sipre Milano).
-    </p>
-  </section>
-
-  <!-- Master e altri corsi... -->
-  <section class="white-section container-fluid" id="corsi">
-    <br>
-    <p>Ho frequentato <strong>master e corsi di perfezionamento</strong> in:</p>
-    <ul>
-      <li>Psicoanalisi e Clinica della Sessualità</li>
-      <li>Sessuologia Clinica</li>
-      <li>Psicoanalisi della Relazione di coppia</li>
-      <li>EMDR (per gli eventi post-traumatici da stress)</li>
-      <li>Psicologia Giuridica</li>
-      <li>Disturbi Alimentari</li>
-      <li>Formazione, Progettazione e Orientamento</li>
-    </ul>
-    <p>Oltre che numerosi corsi di formazione continua in 
-      <strong>Psicoterapia Psicodinamica</strong> e <strong>Psicoanalitica</strong>
-       e diversi <strong>seminari</strong> di aggiornamento sul <strong>disagio, minorile e adulto</strong>. <br>
-    </p>
-  </section>
-
-  <!-- Sono Consulente Tribunale... -->
-
-  <section class="colored-section container-fluid">
-    <p>
-      <br>Sono <strong>consulente</strong> presso il Tribunale dei Minori di Lecce.
-      <br>
-      <br>
-      <strong>Tengo corsi di Formazione e aggiornamento</strong> presso Enti di Formazione e Scuole,
-      per operatori della <strong>relazione d'aiuto</strong>, <strong>per dottorandi e docenti</strong>.
-      <br>
-      <br>
-      Ho gestito in diversi anni il <strong>"Centro Ascolto"</strong> presso il <strong>Liceo Scientifico "C. De Giorgi"</strong>, e presso <strong>l'Istituto Tecnico Commerciale "Costa"</strong>, a Lecce, <strong>uno spazio di ascolto
-        rivolto
-        agli studenti</strong>, e incontri tematici dedicati
-      all'approfondimento della <strong>conoscenza di sé e delle proprie emozioni</strong>.
-      <br>
-      <br>
-      Lavoro privatamente presso il mio studio in <strong>via Cosimo de Giorgi n°44, zona Salesiani</strong>.
-      <br>
-      <br>
-      Iscritta all'<strong>Ordine degli Psicologi</strong>della Regione Puglia, <strong>n. 1713</strong>.
-      <br>
-
-    </p>
   </section>
 
   <!-- cornicetta -->
@@ -200,13 +182,13 @@
       ( zona Salesiani ) <br>
       <br>
       <strong class="pr-3">
-      <a class="list-inline-item footer-link" href="tel:320-761-0257">
-        <i class="fas fa-phone"></i>
-      </a>
-    </strong> | <strong class="pl-3"> 320 7610257</strong><br>
+        <a class="list-inline-item footer-link" href="tel:320-761-0257">
+          <i class="fas fa-phone"></i>
+        </a>
+      </strong> | <strong class="pl-3"> 320 7610257</strong><br>
     </p>
 
-  © Copyright 2020 Laura Cappilli
+    © Copyright 2020 Laura Cappilli
 
   </footer>
 

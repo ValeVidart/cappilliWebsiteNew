@@ -9,9 +9,9 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <meta name="Laura Cappilli" content="psicoterapeuta e psicoanalista">
-  <meta name="description" content="sito di Laura Cappilli Psicoanalista e Psicoterapeuta">
-  <meta name="keywords" content="lecce, Psicoterapeuta, psicoanalista, psicoanalisi, psicologia, psicologa, professionale, psicodinamica, interpretazione, sogni">
+  <meta name="Laura Cappilli" content="psicoterapeuta e psichiatra">
+  <meta name="description" content="sito di Laura Cappilli psicoterapeuta e psichiatra">
+  <meta name="keywords" content="lecce, Psicoterapeuta, psicologia, psicologa, professionale, psicodinamica, interpretazione, sogni">
 
   <title>Laura Cappilli - Psicologa e Psicoterapeuta a Lecce</title>
 
@@ -25,9 +25,11 @@
   <!--css files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/cappilli.css">
+  <link rel="stylesheet" href="css/ambiti.css">
   <link rel="stylesheet" href="css/mobile.css">
+  <link href="css/gallerymio.css" rel="stylesheet">
+  <link href="css/lightboxmio.css" rel="stylesheet">
   <link rel="stylesheet" href="css/articles.css">
-  <link rel="stylesheet" href="css/risorse.css">
 
   <!--favicon files -->
   <link href="img/favicon.png" rel="shortcut icon">
@@ -36,6 +38,10 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/scriptaculous.js"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+
 
 </head>
 
@@ -67,7 +73,7 @@
           <a class="nav-link" href="terapia.html">APPROCCIO TERAPEUTICO</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="ambiti.html">AMBITI DI INTERVENTO</a>
+          <a class="nav-link active" href="ambiti.html">AMBITI DI INTERVENTO</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="articoli.html">ARTICOLI</a>
@@ -76,12 +82,12 @@
           <a class="nav-link" href="news.html">EVENTI & NEWS</a>
         </li>
         <li class="dropdown-submenu nav-item">
-          <a href="#" class="nav-link dropdown-toggle m-auto active" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a href="#" class="nav-link dropdown-toggle m-auto" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <span class="nav-label">RISORSE</span>
             <span class="caret"></span>
           </a>
           <ul class="dropdown-menu mySub">
-            <li class="nav-item mySubMenu"><a class="nav-link active" href="benessere.html">Salute e Benessere</a></li>
+            <li class="nav-item mySubMenu"><a class="nav-link" href="benessere.html">Salute e Benessere</a></li>
             <li class="nav-item mySubMenu"><a class="nav-link" href="decalogo.html">Decalogo dello psicologo</a></li>
             <li class="nav-item mySubMenu"><a class="nav-link" href="siti_psy.html">Siti di Psicologia</a></li>
             <li class="nav-item mySubMenu"><a class="nav-link" href="legg_deont.html">Leggi e Deontologia</a></li>
@@ -102,38 +108,86 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
-  <!-- benessere-->
-  <section class="white-section" id="benessere">
+
+  <!-- di cosa mi occupo -->
+
+  <section class="white-section" id="occupo">
     <div class="container-fluid">
 
-      <h1 class="big-heading">Salute & Benessere</h1>
+      <!-- tre mini sections -->
+
       <br>
-      <ul style="list-style-type: none; text-decoration: none;">
-          <li>
-            <strong>
-              <a style="color:#0c7b93;" href="http://www.valentinagaliazzo.com/">
-                Valentina Galiazzo
-              </a>
-            </strong>
-            <br>Biologa Nutrizionista
-          </li>
-          <br><br>
-          <li></li>
 
-          <li>
-            <strong>
-              <a style="color:#0c7b93;" href="https://www.dottori.it/gloria-cartelli-146525">
-                Gloria Cartelli
-              </a>
-            </strong>
-            <br>Biologa Nutrizionista
-          </li>
-          <br><br>
-          <li></li>
-      </ul>
+      <div class="mini-sections">
+        <!-- Psicologia Scolastica -->
+
+        <div class="row">
+          <div class="col-lg-10 col-md-12 m-auto" id="ps-scolastica">
+            <div class="cases">
+              <h5 class="big-heading">Psicologia Forense</h5>
+              <br>
+              <img class="myImage m-auto" src="img/giustizia.png" alt="qualcos'altro">
+              <br>
+              <h5 class="cursive-style">Diritto Minorile:</h5>
+              <p>
+                <ul>
+                  <li>Quadro di riferimento normativo</li>
+                  <li>Aspetti psicologici</li>
+                </ul>
+              </p>
+              <h5 class="cursive-style">Consulenza Tecnica Psicologica nella Giustizia Civile, Ordinaria, Minorile:</h5>
+              <p>
+                <ul>
+                  <li>Separazioni</li>
+                  <li>Divorzio</li>
+                  <li>Affidamento</li>
+                  <li>Idoneità dei genitori</li>
+                  <li>Adozione Nazionale e Internazionale</li>
+                  <li>Danno alla persona (Psichico, da <strong>Mobbing</strong>)</li>
+                </ul>
+              </p>
+
+              <h5 class="cursive-style">Competenze Peritali e di Consulenza Psicologica in campo Penale:</h5>
+              <p>
+                <ul>
+                  <li>Imputabilità e Responsabilità</li>
+                  <li>Pericolosità sociale</li>
+                  <li>Attendibilità della testimonianza</li>
+                </ul>
+              </p>
+
+              <h5 class="cursive-style">Lavoro Peritale e di Consulenza Tecnica nel Processo Penale Minorile:</h5>
+              <p>
+                Competenze relative all'attività di <strong>Mediazione</strong>:
+                <ul>
+                  <li>Civile</li>
+                  <li>Penale</li>
+                  <li>Extra- giudiziaria</li>
+                </ul>
+
+              </p>
+
+                <h5 class="cursive-style">Torna agli</h5>
+                <button type="button" class="btn btn-outline-dark btn-lg btn-block">
+                <a class="myBtn" href="ambiti.html">ambiti di intervento</a>
+                </button>
+            </div>
+          </div>
 
 
+
+        </div>
+        <!-- fine row -->
+
+
+
+
+      </div>
+      <!-- mini sections -->
     </div>
+    <!-- fine container-fluid -->
+
+
   </section>
   <!-- cornicetta -->
   <hr>
