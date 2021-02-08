@@ -17,18 +17,20 @@
 
   <!-- Google fonts -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,900&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Lora:400,700|Merriweather+Sans&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Merriweather:300i,700i&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=DM+Serif+Text|Lora:400,700|Merriweather+Sans&display=swap" rel="stylesheet">
 
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
   <!--css files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/mobile.css">
   <link rel="stylesheet" href="css/cappilli.css">
+  <link rel="stylesheet" href="css/ambiti.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link href="css/gallerymio.css" rel="stylesheet">
+  <link href="css/lightboxmio.css" rel="stylesheet">
   <link rel="stylesheet" href="css/articles.css">
-
 
   <!--favicon files -->
   <link href="img/favicon.png" rel="shortcut icon">
@@ -37,13 +39,17 @@
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/prototype.js"></script>
+  <script type="text/javascript" src="js/scriptaculous.js"></script>
+  <script type="text/javascript" src="js/lightbox.js"></script>
+
 
 </head>
 
 <body>
 
   <!-- logo -->
-  <a class="navbar-brand" href="#" id="logo">
+  <a class="navbar-brand" href="index.html" id="logo">
     <img class="imgLogo" src="img/lauraCappilliLogo.svg" alt="">
   </a>
 
@@ -103,74 +109,67 @@
     <i class="fas fa-angle-up"></i>
   </a>
 
-  <!-- ARTICOLI SECTION -->
 
-  <section class="white-section" id="ps-coppia">
+  <!-- di cosa mi occupo -->
+
+  <section class="white-section" id="occupo">
     <div class="container-fluid">
-      <h5 class="big-heading">Psicoterapia <br>di Coppia</h5>
-      <!-- Psicologia Scolastica -->
 
-  <section class="mini-section">
 
-          <div class="row">
-            <div class="col-lg-10 col-md-12 m-auto" id="ps-scolastica">
+      <!-- tre mini sections -->
+      <br>
+      <div class="mini-sections">
+
+        <!-- Psicoterapia individuale -->
+
+        <div class="row">
+          <div class="col-lg-10 col-md-12 m-auto" id="ps-scolastica">
+            <div class="cases">
+              <h5 class="big-heading">Psicoterapia di Coppia</h5>
+
               <div class="cases">
-                <br>
-                    <img class="myImage m-auto" src="img/coppia.png" alt="qualcos'altro">
-                <br>
-                <h5 class="cursive-style">La consultazione Psicoanalitica: Coppia</h5>
-                <br>
-                <p>
-                  La consultazione di coppia, orientata in senso psicoanalitico, si prefigge di indagare sulla qualità del legame affettivo allo scopo di migliorare la dinamica relazionale tra i due partner. Essa è importante per favorire l’ascolto
-                  reciproco tra i coniugi. Le motivazioni alla consultazione di coppia possono riguardare problemi coniugali e/o genitoriali. L’approccio psicoanalitico in una consultazione di coppia consiste nell’indagare i conflitti che possono
-                  generare incomprensione e caduta di interesse reciproco.
-                  <br><br>
-                  Durante lo svolgimento della consultazione sarà importante riflettere su quegli aspetti irrisolti (<strong>carenze, conflitti, lutti, ecc.</strong>) della storia personale di ognuno che entrano in gioco nella dinamica di coppia ed
-                  interferiscono sulla relazione complessiva tra i partners. Altrettanto significativo è l’aiuto a chiarire reciprocamente i motivi consci/inconsci della scelta coniugale, o, per i neo-genitori, il significato intimo della nascita di un
-                  figlio ed i suoi risvolti nel funzionamento della coppia.
-                </p>
-
-                <br>
-                  <h5 class="cursive-style">Torna agli</h5>
-                  <button type="button" class="btn btn-outline-dark btn-lg btn-block">
-                  <a class="myBtn" href="ambiti.html">ambiti di intervento</a>
-                  </button>
+                <img class="myImage m-auto" src="img/coppia.png" alt="qualcos'altro">
               </div>
+
+              <br>
+              <h5 class="cursive-style">La consultazione Psicoanalitica: Coppia</h5>
+              <br>
+              <p>
+                La consultazione di coppia, orientata in senso psicoanalitico, si prefigge di indagare sulla qualità del legame affettivo allo scopo di migliorare la dinamica relazionale tra i due partner. Essa è importante per favorire l’ascolto
+                reciproco tra i coniugi. Le motivazioni alla consultazione di coppia possono riguardare problemi coniugali e/o genitoriali. L’approccio psicoanalitico in <strong>una consultazione di coppia consiste nell’indagare i conflitti che possono
+                generare incomprensione e caduta di interesse reciproco</strong>.
+                <br><br>
+                Durante lo svolgimento della consultazione sarà importante riflettere su quegli aspetti irrisolti (carenze, conflitti, lutti, ecc.) della storia personale di ognuno che entrano in gioco nella dinamica di coppia ed
+                interferiscono sulla relazione complessiva tra i partners. Altrettanto significativo è l’aiuto a chiarire reciprocamente i motivi consci/inconsci della scelta coniugale, o, per i neo-genitori, il significato intimo della nascita di un
+                figlio ed i suoi risvolti nel funzionamento della coppia.
+              </p>
+
+              <br><br>
+                <h5 class="cursive-style">Torna agli</h5>
+                <button type="button" class="btn btn-outline-dark btn-lg btn-block">
+                <a class="myBtn" href="ambiti.html">ambiti di intervento</a>
+                </button>
+
+
+
             </div>
-
-
-
           </div>
-          <!-- fine row -->
-
-
-  </section>
 
 
 
+        </div>
+        <!-- fine row -->
 
 
 
-
-
-
-
-
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myDIV");
-          if (x.style.display === "none") {
-            x.style.display = "block";
-          } else {
-            x.style.display = "none";
-          }
-        }
-      </script>
-
+      </div>
+      <!-- mini sections -->
     </div>
+    <!-- fine container-fluid -->
+
+
   </section>
-  <br>
-  <br>
+
   <!-- cornicetta -->
   <hr>
 
@@ -183,13 +182,13 @@
       ( zona Salesiani ) <br>
       <br>
       <strong class="pr-3">
-      <a class="list-inline-item footer-link" href="tel:320-761-0257">
-        <i class="fas fa-phone"></i>
-      </a>
-    </strong> | <strong class="pl-3"> 320 7610257</strong><br>
+        <a class="list-inline-item footer-link" href="tel:320-761-0257">
+          <i class="fas fa-phone"></i>
+        </a>
+      </strong> | <strong class="pl-3"> 320 7610257</strong><br>
     </p>
 
-  © Copyright 2020 Laura Cappilli
+    © Copyright 2020 Laura Cappilli
 
   </footer>
 
